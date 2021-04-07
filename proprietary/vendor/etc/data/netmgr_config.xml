@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
      Netmgr Module configuration XML file
      Copyright (c) 2013, 2016-2020 Qualcomm Technologies, Inc.
      All Rights Reserved.
      Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- QMI configuration -->
 <list name="netmgr_config">
@@ -2272,7 +2273,7 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 12 </data>
       <data name="netdev_budget" type="int"> 0 </data>
-      <data name="tcp_mtu_probing" type="int"> 2 </data>
+      <data name="tcp_mtu_probing" type="int"> 1 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
       <data name="skip_buffered_qos_modify" type="int"> 1 </data>
 
