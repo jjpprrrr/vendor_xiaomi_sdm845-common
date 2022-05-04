@@ -839,6 +839,7 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    WfdCommon \
     audiosphere \
     tcmclient \
     com.qti.dpmframework \

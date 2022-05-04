@@ -162,6 +162,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "WfdCommon",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
+dex_import {
 	name: "audiosphere",
 	owner: "xiaomi",
 	jars: ["proprietary/system/framework/audiosphere.jar"],
